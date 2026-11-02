@@ -1,6 +1,8 @@
-# @b-apm/integration-omp (standalone)
+# bapm-integration-omp
 
 Интеграция [Omp](https://omp.sh) для [bapm](https://github.com/Sdju/bapm) как **отдельный git-пакет** — грузится прямо из этого репозитория, без npm.
+
+> ⚠️ Это **не** npm-пакет `@b-apm/integration-omp` из монорепо bapm (`Sdju/bapm/packages/integration-omp`). Это независимая копия-источник для git-загрузки: `package.json` называется `bapm-integration-omp`, scope `@b-apm/` здесь намеренно не используется. Функционально идентична каноническому таргету omp.
 
 ## Использование
 
