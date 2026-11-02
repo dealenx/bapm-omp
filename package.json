@@ -1,0 +1,33 @@
+{
+  "name": "@b-apm/integration-omp",
+  "version": "0.1.0",
+  "description": "Omp (omp.sh) integration for bapm as a standalone git package",
+  "keywords": [
+    "b-apm",
+    "bapm",
+    "omp",
+    "integration"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dealenx/bapm-omp.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "vp pack"
+  },
+  "dependencies": {
+    "@b-apm/integration-api": "0.1.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
